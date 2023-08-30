@@ -3,6 +3,6 @@ Repository Pattern
 
 Unit Of Work
 
-Cqrs
+CQRS
 
 MediatR
