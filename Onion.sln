@@ -7,17 +7,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5CEC8EEE-AF3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{BA79D43A-6D84-4CF8-BEDB-2B67DE7B76C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Domain", "src\Core\Onion.Domain\Onion.Domain.csproj", "{E7949A41-57F0-4987-A13A-D464C69C399C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onion.Domain", "src\Core\Onion.Domain\Onion.Domain.csproj", "{E7949A41-57F0-4987-A13A-D464C69C399C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Application", "src\Core\Onion.Application\Onion.Application.csproj", "{D13FF005-90ED-4957-9E9B-C0F32D7F8A3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onion.Application", "src\Core\Onion.Application\Onion.Application.csproj", "{D13FF005-90ED-4957-9E9B-C0F32D7F8A3E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{1D4F57F2-BDF4-41BC-8BC3-AFDBF7E2F33D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Persistance", "src\Infrastructure\Onion.Persistance\Onion.Persistance.csproj", "{71B9096A-F12D-4D65-9CBE-DC658E7DC06E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onion.Persistance", "src\Infrastructure\Onion.Persistance\Onion.Persistance.csproj", "{71B9096A-F12D-4D65-9CBE-DC658E7DC06E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{758B0B68-370C-4031-BA82-E42C620F86C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.WebApi", "src\WebApi\Onion.WebApi\Onion.WebApi.csproj", "{9704DEB3-4BAE-4C01-A72A-B4028AA4FADF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onion.WebApi", "src\WebApi\Onion.WebApi\Onion.WebApi.csproj", "{9704DEB3-4BAE-4C01-A72A-B4028AA4FADF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

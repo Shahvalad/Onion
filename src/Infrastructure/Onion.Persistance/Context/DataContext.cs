@@ -14,6 +14,10 @@ namespace Onion.Persistance.Context
         {
                 
         }
+        public DataContext()
+        {
+
+        }
 
 
         public DbSet<Product> Products { get; set; }

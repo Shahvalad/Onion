@@ -1,5 +1,7 @@
+using Microsoft.EntityFrameworkCore;
 using Onion.Application;
 using Onion.Persistance;
+using Onion.Persistance.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +14,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddPersistance();
 builder.Services.AddApplication();
 
+builder.Services.AddDbContext<DataContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
